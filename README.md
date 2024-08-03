@@ -13,6 +13,7 @@ You need follow the next instructions
 ```sh
 git clone
 cd app
+python3 -m venv myenv
 source env/bin/activated 
 pip3 install -r requirements.txt
 python3 main.py
