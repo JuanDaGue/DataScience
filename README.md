@@ -9,7 +9,7 @@ python3 main.py
 # App Project
 # Steps for play
 
-You need follow the next instructions for play the game
+You need follow the next instructions
 ```sh
 git clone
 cd app
