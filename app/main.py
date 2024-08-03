@@ -14,12 +14,14 @@ def run():
     """
 
     df = pd.read_csv('data.csv')
-    df = df[df['Continent'] == 'Africa']
+    df = df[df['Continent'] == 'South America']
     countries = df['Country'].values
     percentages = df['World Population Percentage'].values
     charts.generate_pie_chart(countries, percentages)
 
     data = read_csv.read_csv('data.csv')
+    data = list(filter(lambda item: item['Continent'] == 'South America', data))
+    countries = list(map(lambda x: x['Country'], data))
     country = input('Type Country => ')
     print(country)
 
