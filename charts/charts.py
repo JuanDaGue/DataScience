@@ -17,5 +17,5 @@ def generate_pie_chart():
     plt.close()
 
     # Verificar que el archivo se ha guardado
-    #print(f'Gráfico guardado como {output_file}')
+    # print(f'Gráfico guardado como {output_file}')
     print(f'Directorio de trabajo actual: {os.getcwd()}')
